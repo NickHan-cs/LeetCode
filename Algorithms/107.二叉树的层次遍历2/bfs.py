@@ -9,7 +9,7 @@ class TreeNode:
 
 
 class Solution:
-    def levelOrder(self, root: TreeNode) -> List[List[int]]:
+    def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         ans = []
         if not root:
             return ans
